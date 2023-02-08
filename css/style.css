@@ -7,7 +7,6 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif !important;
 }
-
 /* BANNER */
 .banner {
     background-image: url(../images/academy-banner.jpg);
@@ -17,16 +16,6 @@
 .heading {
     text-align: right;
     color: #1e2531;
-<<<<<<< HEAD
-=======
-    font: weight 600px;
-}
-/* PAGE 2 */
-
-.side-image {
-    padding: 5%;
-    width: 100%;
->>>>>>> 5a6a159a683fc9432b72ac06efe4088e315e1f0b
 }
 .heading h1 {
     font-size: 45px;
