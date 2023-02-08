@@ -13,20 +13,13 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-.heading {
-    text-align: right;
-    color: #1e2531;
-}
-.heading h1 {
-    font-size: 45px;
-    font-weight: 900;
-}
 /* page 2 */
+
 .side-text {
     background-color: #1e2531;
     color: #20b2aa;
-    padding: 4%;
-    margin-left: -160px;
+    align-self: center;
+    margin-left: -13%;
 }
 .side-text p {
     font-size: 24px;
@@ -42,25 +35,11 @@
     color: #d61355;
     padding-left: 10px;
 }
-.description {
-    color: #252525;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
-}
 /* PAGE 3 */
 .module {
     background-image: url(../images/modulebg.jpg);
     height: 100vh;
-    padding: 200px;
-}
-.module-content {
-    background-color: rgba(30, 37, 49, 0.5);
-    border-radius: 10px;
-    height: 10%;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+    padding: 200px 0;
 }
 /* page 4 */
 .left {
@@ -72,9 +51,7 @@
     height: 78vh;
 }
 .test-interview-content {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    line-height: 20px;
+    padding: 30%;
 }
 /* @media screen and (max-width: 576px) */
 
@@ -83,72 +60,7 @@
         background-image: none;
         background-color: #bbc2ca;
     }
-    .heading {
-        text-align: right;
-        color: #1e2531;
-    }
-
-    .heading h1 {
-        font-size: 32px;
-        font-weight: 900;
-    }
-    /* page 2 */
-    .side-image-content {
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        /* width: 100%; */
-    }
-    .side-image img {
-        width: 100%;
-        margin: 0;
-    }
-    .side-text {
-        font-size: 10px;
-        /* width: fit-content; */
-        margin-left: 0;
-    }
-
-    /* PAGE 3 */
-    .module {
-        background-image: url(../images/modulebg.jpg);
-        height: 100vh;
-        padding: 100px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .module-content {
-        background-color: rgba(30, 37, 49, 0.5);
-        width: 100px;
-        border-radius: 10px;
-        height: 40px;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-    }
-    /* page 4 */
-    .left {
-        background-image: url(../images/testsbg.jpg);
-        height: 78vh;
-    }
-    .right {
-        background-image: url(../images/intrvwbg.jpg);
-        height: 78vh;
-    }
-
-    .test-interview-content {
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        line-height: 14px;
-        font-size: 12px;
-    }
-    /* page 5 */
-    .footer p {
-        font-size: 12px;
-        line-height: 14px;
-    }
-    .footer h4 {
-        font-size: 14px;
+    .imageandcontent {
+        padding: 0;
     }
 }
